@@ -1,0 +1,256 @@
+/*============================================================
+                    Extra small devices 
+================================================================*/
+@media (max-width: 575.98px) {
+.main {
+	width: 100%;
+	position: none;
+	left: 0;
+	padding: 0;
+}
+.navads {
+	height: 100%;
+	width: 50px;
+	position: fixed;
+	z-index: 999;
+	top: 100px;
+	right: 0;
+	background-color: #be32be;
+	overflow-x: hidden;
+	display: none;
+}
+.manu ul li {
+    text-align: center;
+    padding-left: 0;
+}
+.main {
+	height: 100%;
+}    
+.navbar {
+	bottom: 0;
+}    
+.navbar {
+	display: none;
+}  
+.tabse{
+	width: 100%;
+}  
+.speasing {
+	padding-top: 30px;
+	padding-bottom: 35px;
+}  
+h3 {
+	padding-right: 0;
+}  
+/*---=== mobile banner part ===--*/    
+.main {
+    top: 85px;
+}
+.banner-item h4 {
+    font-size: 16px;
+}
+.banner-item h6 {
+    font-size: 19px;
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+}     
+.banner-main {
+    width: 300px;
+    
+}
+.banner-item h6 img {
+    display: none;
+}
+#particles-js {
+    height: 85px;
+}
+.left-page {
+    padding-right: 0;
+}
+.right-page {
+    padding-left: 0;
+}
+    
+}
+
+/*=====================================================================
+                            Small devices 
+=======================================================================*/
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+/*========== Navbar part start ==========*/
+.navads {
+	display: none;
+}
+.main {
+	width: 100%;
+	position: none;
+	left: 0;
+	padding: 0;
+}
+.sidenav {
+    display: none;
+}
+.main {
+	height: 100%;
+}
+.manu ul li {
+    text-align: center;
+    padding-left: 0;
+}
+.tabse {
+    display: inline;
+}
+.navbar {
+	display: none;
+} 
+.tabse{
+	width: 100%;
+}
+h3 {
+	padding-right: 0;
+}  
+/*---=== mobile banner part ===--*/
+.main {
+    top: 108px;
+}
+.banner-item h4 {
+    font-size: 16px;
+}
+.banner-item h6 {
+    font-size: 19px;
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+}   
+#mob {
+    display: block;
+}    
+.banner-main {
+    width: 400px;
+    
+}
+#particles-js {
+    height: 108px;
+}   
+    
+#one {
+    position: relative;
+    left: 310px;
+}
+#two {
+    position: relative;
+    left: 287px;
+}
+#three {
+    position: relative;
+    left: 294px;
+}
+#four {
+    position: relative;
+    left: 334px;
+}
+#five {
+    position: relative;
+    left: 305px;
+}
+#six {
+    position: relative;
+    left: 288px;
+}
+#seven {
+    position: relative;
+    left: 280px;
+}
+#eight {
+    position: relative;
+    left: 277px;
+}
+#nine {
+    position: relative;
+    left: 274px;
+}
+#ten {
+    position: relative;
+    left: 299px;
+}
+#eleven {
+    position: relative;
+    left: 285px;
+}
+#twelve {
+    position: relative;
+    left: 290px;
+}
+#thirteen {
+    position: relative;
+    left: 288px;
+}
+#fourteen {
+    position: relative;
+    left: 283px;
+}
+#fifteen {
+    position: relative;
+    left: 311px;
+}
+#sixteen {
+    position: relative;
+    left: 299px;
+}
+#seventeen {
+    position: relative;
+    left: 279px;
+}
+#eighteen {
+    position: relative;
+    left: 304px;
+}
+#nineteen {
+    position: relative;
+    left: 282px;
+}
+#twenty {
+    position: relative;
+    left: 315px;
+}    
+.left-page {
+    padding-right: 0;
+}
+.right-page {
+    padding-left: 0;
+}    
+.subscribe {
+	padding: 0 156px;
+}    
+    
+}
+/*====================================================================== 
+                                Large devices 
+=========================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+
+/*======================================================================
+                            Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) {
+
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

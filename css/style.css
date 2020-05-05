@@ -1,0 +1,1378 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.btn-link:hover, .btn-link:focus {
+    text-decoration: none;
+}
+a {
+    text-decoration: underline;
+}
+ol {
+    padding-left: 15px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .p, h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background: grey;
+}
+body{
+	font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
+    background: grey;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+}
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 55px;
+	font-weight: 700;
+	color: red;
+    padding-right: 36px;
+}
+h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: red;
+	padding-top: 30px;
+    padding-bottom: 20px;
+}
+p {
+    padding-bottom: 7px;
+}
+span {
+    font-weight: 500;
+}
+.padding-l {
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+.padding-r {
+	padding-left: 30px;
+	padding-bottom: 40px;
+}
+.img img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.right-page ul li p {
+    padding-left: 10px;
+}
+.right-page ol li p {
+    padding-left: 10px;
+}
+.black {
+    color: black;
+    font-weight: 600;
+}
+.last-black {
+	font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+/* Style page content */
+.main {
+	height: 80%;
+	width: 1130px;
+	position: fixed;
+	z-index: 999;
+	top: 114px;
+	left: 356px;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding: 0 80px;
+}
+/*--====================================================== 
+                    Navbar part start
+======================================================--*/
+ /* The sidebar menu */
+.navbar {
+	height: 558px;
+	width: 356px;
+	position: fixed;
+	z-index: 999;
+	top: 114px;
+	left: 0;
+	background-color: #6565ff;
+	border-bottom: 3px solid #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	margin-right: 19px;
+	border-radius: 6px;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 2px 74px 2px 60px;
+	position: relative;
+}
+.navbar-light .navbar-nav .nav-link:after {
+    position: absolute;
+    content: '';
+    top: -3px;
+    left: -30px;
+    width: 355px;
+    height: 3px;
+    background: #000;
+}
+.navbar-light .navbar-nav .nav-link i {
+	position: relative;
+	left: 203px;
+}
+
+.navbar-nav {
+	display: inline-block;
+}
+/*--=====================================================
+                        Mobile Manu 
+=====================================================--*/
+.tabse{
+	height: 30px;
+	width: 0;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	overflow-x: hidden;
+	z-index: 9999;
+}
+#first-b {
+	height: 30px;
+	width: 25%;
+	background: #000;
+	color: #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	cursor: pointer;
+	margin: 0 -2px;
+}
+#first-b:hover {
+	background: #fff;
+	color: red;
+    border-top: 3px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.mob-content {
+    padding: 100px 25px;
+}
+.bg-mobile {
+	width: 100%;
+	height: 600px;
+	background: #6565ff;
+	position: absolute;
+	top: -15px;
+	z-index: 99999;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+.manu ul {
+    list-style-type: none;
+}
+.manu ul li {
+	width: 100%;
+	height: 42px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.manu ul li:last-child {
+    border-bottom: 2px solid black;
+}
+.manu a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+.manu .nav-link {
+    padding: 0;
+}
+/*
+.manu a i {
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+	left: 180px;
+}
+*/
+#one {
+    position: relative;
+    left: 180px;
+}
+#two {
+    position: relative;
+    left: 157px;
+}
+#three {
+    position: relative;
+    left: 164px;
+}
+#four {
+    position: relative;
+    left: 204px;
+}
+#five {
+    position: relative;
+    left: 175px;
+}
+#six {
+    position: relative;
+    left: 158px;
+}
+#seven {
+    position: relative;
+    left: 150px;
+}
+#eight {
+    position: relative;
+    left: 147px;
+}
+#nine {
+    position: relative;
+    left: 144px;
+}
+#ten {
+    position: relative;
+    left: 169px;
+}
+#eleven {
+    position: relative;
+    left: 155px;
+}
+#twelve {
+    position: relative;
+    left: 160px;
+}
+#thirteen {
+    position: relative;
+    left: 158px;
+}
+#fourteen {
+    position: relative;
+    left: 153px;
+}
+#fifteen {
+    position: relative;
+    left: 181px;
+}
+#sixteen {
+    position: relative;
+    left: 169px;
+}
+#seventeen {
+    position: relative;
+    left: 149px;
+}
+#eighteen {
+    position: relative;
+    left: 174px;
+}
+#nineteen {
+    position: relative;
+    left: 152px;
+}
+#twenty {
+    position: relative;
+    left: 185px;
+}
+.subscribe {
+	width: 100%;
+	height: 208px;
+	background: #fff;
+    text-align: center;
+    padding: 0 50px;
+}
+.subscribe a {
+    text-decoration: none;
+}
+.subscribe a h6 {
+	text-decoration: none;
+	font-size: 33px;
+	font-weight: 600;
+	padding-left: 15px;
+}
+.subscribe a p {
+	padding-left: 15px;
+	padding-right: 4px;
+}
+
+/*--=========================================================
+                Modal Bootstrap Changes 
+=========================================================--*/
+.modal-dialog {
+	margin: 0;
+}
+.modal {
+	top: -628px;
+}
+.modal-content {
+	background-color: #6565ff;
+    border: 0;
+}
+.mob-content {
+	padding: 0;
+}
+.modal-header {
+	border-bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; 
+}
+.modal-body {
+	padding: 0;
+}
+.close {
+	float: right;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .5;
+	position: relative;
+	top: 68px;
+	right: 30px;
+}
+.modal-dialog {
+	max-width: 1500px;
+	margin: 1.75rem auto;
+}
+/*--=====================================================
+                    Banner part start 
+=====================================================--*/
+#particles-js {
+    background: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    height: 114px;
+    position: relative;
+}
+.banner-main {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: #3fc117;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #fff;
+    width: 500px;
+    
+}
+.banner-item h4 {
+    font-size: 20px;
+    padding: 0;
+    color: #fff;
+}
+.banner-item h6 {
+    font-size: 25px;
+    padding: 0;
+    color: #fff;
+    font-weight: 600;
+}
+#aro1 {
+    position: relative;
+    bottom: -30px;
+    left: -350px;
+    font-size: 30px;
+}
+/*--=====================================================
+                    Mobile Banner part  
+=====================================================--*/
+#mob {
+    display: none;
+}
+/*--=====================================================
+                    Basic part start 
+=====================================================--*/
+.speasing {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.pa-top-10 {
+    padding-top: 10px;
+}
+.pa-top-20 {
+    padding-top: 20px;
+}
+.pa-top-30 {
+    padding-top: 30px;
+}
+.pa-top-40 {
+    padding-top: 40px;
+}
+.pa-top-60 {
+    padding-top: 60px;
+}
+.pa-top-80 {
+    padding-top: 80px;
+}
+.pa-top-100 {
+    padding-top: 100px;
+}
+.pa-top-150 {
+    padding-top: 150px;
+}
+.pa-top-200 {
+    padding-top: 200px;
+}
+.pa-top-400 {
+    padding-top: 400px;
+}
+.history h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+h2 {
+   font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic; 
+}
+.lefter {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
+    font-style: normal;
+    
+    line-height: -10px;
+}
+.rating p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: black;
+    padding: 10px 0;
+}
+.right-page ul li {
+    margin-left: 15px;
+}
+.left-page {
+    padding-right: 20px;
+}
+.right-page {
+    padding-left: 30px;
+}
+/*--=====================================================
+                    Word color/size part start 
+=====================================================--*/
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.white {
+    color: #fff;
+    position: relative;
+    top: 45px;
+}
+/*
+.smal a {
+	font-size: 12px;
+	text-align: left;
+	text-transform: capitalize;
+}
+*/
+.logo {
+    color: #fff;
+    padding: 8px;
+}
+.spac {
+    padding-left: 120px;
+}
+/*--=====================================================
+                    form part start 
+=====================================================--*/
+.form input{
+    font-family: 'Lato', sans-serif;
+    background: transparent;
+    font-weight: 500;
+    color: #000;
+    border: 0;
+    border-bottom: 1px solid #ef4836;
+}
+.form input[type="message"]{
+    width: 100%;
+    height: 100px;
+    color: #000;
+    padding-left: 10px;
+    border: 1px solid #000;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+}
+.form input[type="text"]{
+    width: 100%;
+    line-height: 26px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.form input[type="number"]{
+    width: 100%;
+    margin-top: 5px;
+    line-height: 26px;
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+.form button[type="submit"] {
+    font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+	color: white;
+	line-height: 40px;
+	text-transform: uppercase;
+	background: #000;
+	padding: 5px 20px;
+    cursor: pointer;
+}
+.form button[type="submit"]:hover{
+    color: #ef4836;
+}
+/*--=====================================================
+                    Rating part start 
+=====================================================--*/
+.stars {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars input{
+    display: none;
+}
+.stars label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars label:hover::after,
+.stars label:hover ~ label::after, 
+.stars input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+.stars1 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars1 input{
+    display: none;
+}
+.stars1 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars1 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars1 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars1 label:hover::after,
+.stars1 label:hover ~ label::after, 
+.stars1 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+.stars2 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars2 input{
+    display: none;
+}
+.stars2 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars2 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars2 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars2 label:hover::after,
+.stars2 label:hover ~ label::after, 
+.stars2 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+.stars3 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars3 input{
+    display: none;
+}
+.stars3 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars3 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars3 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars3 label:hover::after,
+.stars3 label:hover ~ label::after, 
+.stars3 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+.stars4 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars4 input{
+    display: none;
+}
+.stars4 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars4 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars4 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars4 label:hover::after,
+.stars4 label:hover ~ label::after, 
+.stars4 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+
+
+.stars5 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars5 input{
+    display: none;
+}
+.stars5 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars5 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars5 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars5 label:hover::after,
+.stars5 label:hover ~ label::after, 
+.stars5 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+
+
+
+.stars6 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars6 input{
+    display: none;
+}
+.stars6 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars6 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars6 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars6 label:hover::after,
+.stars6 label:hover ~ label::after, 
+.stars6 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+.stars7 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars7 input{
+    display: none;
+}
+.stars7 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars7 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars7 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars7 label:hover::after,
+.stars7 label:hover ~ label::after, 
+.stars7 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+
+.stars8 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars8 input{
+    display: none;
+}
+.stars8 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars8 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars8 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars8 label:hover::after,
+.stars8 label:hover ~ label::after, 
+.stars8 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+.stars9 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars9 input{
+    display: none;
+}
+.stars9 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars9 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars9 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars9 label:hover::after,
+.stars9 label:hover ~ label::after, 
+.stars9 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+.stars10 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars10 input{
+    display: none;
+}
+.stars10 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars10 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars10 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars10 label:hover::after,
+.stars10 label:hover ~ label::after, 
+.stars10 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+.stars11 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars11 input{
+    display: none;
+}
+.stars11 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars11 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars11 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars11 label:hover::after,
+.stars11 label:hover ~ label::after, 
+.stars11 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+
+
+.stars12 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars12 input{
+    display: none;
+}
+.stars12 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars12 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars12 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars12 label:hover::after,
+.stars12 label:hover ~ label::after, 
+.stars12 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+.stars13 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars13 input{
+    display: none;
+}
+.stars13 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars13 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars13 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars13 label:hover::after,
+.stars13 label:hover ~ label::after, 
+.stars13 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+
+.stars14 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars14 input{
+    display: none;
+}
+.stars14 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars14 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars14 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars14 label:hover::after,
+.stars14 label:hover ~ label::after, 
+.stars14 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+
+.stars15 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars15 input{
+    display: none;
+}
+.stars15 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars15 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars15 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars15 label:hover::after,
+.stars15 label:hover ~ label::after, 
+.stars15 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+.stars16 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars16 input{
+    display: none;
+}
+.stars16 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars16 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars16 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars16 label:hover::after,
+.stars16 label:hover ~ label::after, 
+.stars16 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+.stars17 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars17 input{
+    display: none;
+}
+.stars17 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars17 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars17 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars17 label:hover::after,
+.stars17 label:hover ~ label::after, 
+.stars17 input:checked ~ label::after {
+    opacity: 1;    
+}
+
+
+
+
+
+.stars18 {
+    margin-bottom: 2px;
+    direction: rtl;
+}
+.stars18 input{
+    display: none;
+}
+.stars18 label {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -53px;
+	left: 87px;
+}
+.stars18 label::before {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+}
+.stars18 label::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    top: 4px;
+    left: 2px;
+    opacity: 0;
+    color: #ffc04c;
+}
+.stars18 label:hover::after,
+.stars18 label:hover ~ label::after, 
+.stars18 input:checked ~ label::after {
+    opacity: 1;    
+}
